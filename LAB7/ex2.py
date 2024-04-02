@@ -4,7 +4,7 @@ import os
 def design():
     COLOR1 = (186, 85, 211)
     COLOR2 = (75, 0, 130)
-    playing_button = pygame.image.load(r"C:\Users\PC\Desktop\Python\lab1\LAB7\img\play-pause-button.png")
+    playing_button = pygame.image.load(r"C:\Users\Assylzhanova Inara\Downloads\play-pause-button.png")
     playing_button = pygame.transform.scale(playing_button, (300, 80))
     f1 = pygame.font.SysFont("Arial", 32)
     text1 = f1.render(ref[i][43:-4], True,
@@ -37,7 +37,7 @@ def switch_track():
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
-path = "C:\\Users\\PC\\Desktop\\Python\\lab1\\LAB7\\music\\"
+path = "C:\\Users\\Assylzhanova Inara\\Desktop\\musica\\"
 tracks = os.listdir(path)
 ref = [path + x for x in tracks]
 
