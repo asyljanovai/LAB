@@ -19,14 +19,14 @@ surface = pygame.Surface((200,200))
 screen = pygame.display.set_mode((700, 500))
 
 
-clock = pygame.image.load(r"C:\Users\PC\Desktop\Python\lab1\LAB7\img\mainclock.png")
+clock = pygame.image.load(r"C:\Users\Assylzhanova Inara\Downloads\mainclock.png")
 clock = pygame.transform.scale(clock, (700, 500))
 
-m_arrow = pygame.image.load(r"C:\Users\PC\Desktop\Python\lab1\LAB7\img\rightarm.png")
+m_arrow = pygame.image.load(r"C:\Users\Assylzhanova Inara\Downloads\rightarm.png")
 m_arrow = pygame.transform.scale(m_arrow, (700, 500))
 m_arrow = pygame.transform.rotate(m_arrow, -56)
 
-s_arrow = pygame.image.load(r"C:\Users\PC\Desktop\Python\lab1\LAB7\img\leftarm.png")
+s_arrow = pygame.image.load(r"C:\Users\Assylzhanova Inara\Downloads\leftarm.png")
 s_arrow = pygame.transform.scale(s_arrow, (45, 500))
 s_arrow = pygame.transform.rotate(s_arrow, -6)
 
